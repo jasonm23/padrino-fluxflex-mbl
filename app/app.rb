@@ -57,4 +57,8 @@ class PadrinoFluxflexMbl < Padrino::Application
   #     render 'errors/505'
   #   end
   #
+
+  get "/" do
+    "padrino on fluxflex"
+  end
 end
